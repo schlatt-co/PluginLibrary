@@ -1,0 +1,4 @@
+name: PluginLibrary
+author: JRoy
+version: 0.1
+main: io.github.jroy.pluginlibrary.ProxiedPluginLibrary

@@ -1,8 +1,8 @@
 package io.github.jroy.pluginlibrary;
 
-import org.bukkit.plugin.java.JavaPlugin;
+import net.md_5.bungee.api.plugin.Plugin;
 
-public class PluginLibrary extends JavaPlugin {
+public class ProxiedPluginLibrary extends Plugin {
 
   @Override
   public void onEnable() {
