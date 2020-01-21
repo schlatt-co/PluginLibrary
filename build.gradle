@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly "org.spigotmc:spigot-api:1.15.1-R0.1-SNAPSHOT"
+    compileOnly "org.spigotmc:spigot-api:1.15.2-R0.1-SNAPSHOT"
     compileOnly "net.md-5:bungeecord-api:1.15-SNAPSHOT"
     compile 'fr.minuskube.inv:smart-invs:1.2.7'
     compile 'co.aikar:taskchain-bukkit:3.7.2'
