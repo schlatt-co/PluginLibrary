@@ -25,6 +25,7 @@ dependencies {
     compile 'com.vdurmont:emoji-java:5.1.1'
     compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.10'
     compile 'me.nallar.whocalled:WhoCalled:1.1'
+    compile group: 'org.apache.commons', name: 'commons-dbcp2', version: '2.7.0'
 }
 
 compileJava.options.encoding = 'UTF-8'
