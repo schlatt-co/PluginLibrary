@@ -11,7 +11,6 @@ repositories {
     maven { url 'https://repo.aikar.co/content/groups/aikar/' }
     maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
     maven { url "https://hub.spigotmc.org/nexus/content/repositories/snapshots" }
-    maven { url 'https://libraries.minecraft.net/' }
 }
 
 dependencies {
@@ -27,12 +26,6 @@ dependencies {
     compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.10'
     compile 'me.nallar.whocalled:WhoCalled:1.1'
     compile group: 'org.apache.commons', name: 'commons-dbcp2', version: '2.7.0'
-    compile ('me.lucko:commodore:1.7')
-}
-
-shadowJar {
-    exclude('com/mojang/brigadier/**')
-    relocate 'me.lucko.commodore', 'io.github.jroy.pluginlibrary.commodore'
 }
 
 compileJava.options.encoding = 'UTF-8'
